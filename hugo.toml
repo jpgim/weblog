@@ -82,8 +82,8 @@ minifyOutput = true
  # name = "github"
  # url = "https://github.com/jpgim"
 
-[params.analytics.google]
-SiteVerificationTag = "G-QDPCYXYCQB"
+#[params.analytics.google]
+#SiteVerificationTag = "aca va search console"
 
 # [params.analytics.bing]
 # SiteVerificationTag = "XYZabc"
@@ -143,3 +143,5 @@ SiteVerificationTag = "G-QDPCYXYCQB"
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+[services.googleAnalytics]
+ID = "G-QDPCYXYCQB"
