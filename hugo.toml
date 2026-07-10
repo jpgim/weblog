@@ -82,8 +82,8 @@ minifyOutput = true
  # name = "github"
  # url = "https://github.com/jpgim"
 
-# [params.analytics.google]
-# SiteVerificationTag = "XYZabc"
+[params.analytics.google]
+SiteVerificationTag = "G-QDPCYXYCQB"
 
 # [params.analytics.bing]
 # SiteVerificationTag = "XYZabc"
