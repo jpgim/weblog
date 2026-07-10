@@ -55,20 +55,20 @@ minifyOutput = true
     disableHLJS = true
     # disableFingerprinting: true
     favicon = "/images/favicon.ico"
-    favicon16x16 = "/static/images/favicon16x16.png"
-    favicon32x32 = "/static/images/favicon32x32.png"
+    favicon16x16 = "/images/favicon16x16.png"
+    favicon32x32 = "/images/favicon32x32.png"
     apple_touch_icon = "/images/apple_touch_icon.png"
     safari_pinned_tab = "/images/safari-pinned-tab.svg"
 
   [params.label]
-    text = "Home"
-    icon = "images/apple_touch_icon.png"
+    text = "Inicio"
+    icon = "/images/apple_touch_icon.png"
     iconHeight = 35
 
   # home-info mode
-  #[params.homeInfoParams]
-  #  Title: "Hi there \U0001F44B"
-  #  Content: Welcome to my blog
+  [params.homeInfoParams]
+    Title = "¡Hola!"
+    Content = "Pasá,tomá un mate 🧉"
 
   [[params.socialIcons]]
   name = "x"
@@ -76,7 +76,7 @@ minifyOutput = true
 
   [[params.socialIcons]]
   name = "linkedin"
-  url = "www.linkedin.com/in/juanpgimenez"
+  url = "https://www.linkedin.com/in/juanpgimenez"
 
  # [[params.socialIcons]]
  # name = "github"
