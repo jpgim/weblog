@@ -1,0 +1,19 @@
+/public/
+/resources/_gen/
+/.hugo_build.lock
+hugo_stats.json
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*~
+
+node_modules/
+package-lock.json  # opcional, depende si querés versionarlo o no
+
+.env
+.env.local

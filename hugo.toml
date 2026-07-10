@@ -1,0 +1,145 @@
+baseURL = "https://jpim.com.ar/"
+locale = "es-AR"
+defaultContentLanguage = "es"
+title = "... and naming things"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+buildDrafts =  false
+buildFuture = false
+buildExpired = false
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+  env = "production"
+  title = "... and naming things"
+  description = "Apuntes sobre programación, Linux, compiladores, sistemas embebidos y otras curiosidades técnicas."
+  keywords = [
+    "programación",
+    "Linux",
+    "Python",
+    "C",
+    "compiladores",
+    "sistemas embebidos",
+    "desarrollo",
+    "tutoriales",
+    "tecnología",
+    "software"
+]
+  author = "Juan Pablo Gimenez"
+  images = ["/images/social-card.png"]
+  DateFormat = "2006-01-02"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+
+  ShowReadingTime =  true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = true
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = false
+  tocopen = false
+
+  [params.assets]
+    disableHLJS = true
+    # disableFingerprinting: true
+    favicon = "/images/favicon.ico"
+    favicon16x16 = "/static/images/favicon16x16.png"
+    favicon32x32 = "/static/images/favicon32x32.png"
+    apple_touch_icon = "/images/apple_touch_icon.png"
+    safari_pinned_tab = "/images/safari-pinned-tab.svg"
+
+  [params.label]
+    text = "Home"
+    icon = "images/apple_touch_icon.png"
+    iconHeight = 35
+
+  # home-info mode
+  #[params.homeInfoParams]
+  #  Title: "Hi there \U0001F44B"
+  #  Content: Welcome to my blog
+
+  [[params.socialIcons]]
+  name = "x"
+  url = "https://x.com/juanpgimenez"
+
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "www.linkedin.com/in/juanpgimenez"
+
+ # [[params.socialIcons]]
+ # name = "github"
+ # url = "https://github.com/jpgim"
+
+# [params.analytics.google]
+# SiteVerificationTag = "XYZabc"
+
+# [params.analytics.bing]
+# SiteVerificationTag = "XYZabc"
+
+# [params.analytics.yandex]
+# SiteVerificationTag = "XYZabc"
+
+ # [params.cover]
+ # hidden = true
+ # hiddenInList = true
+ # hiddenInSingle = true
+
+ 
+
+  # for search
+  # definir antes outputs: 
+  #                        [outputs]
+  #                        home = [ "HTML", "RSS", "JSON" ]
+  #[params.fuseOpts]
+  #isCaseSensitive = false
+  #shouldSort = true
+  #location = 0
+  #distance = 1_000
+  #threshold = 0.4
+  #minMatchCharLength = 0
+  #limit = 10
+  #keys = [ "title", "permalink", "summary", "content" ]
+
+# [[menu.main]]
+# identifier = "categories"
+# name = "categories"
+# url = "/categories/"
+# weight = 10
+
+# [[menu.main]]
+# identifier = "tags"
+# name = "tags"
+# url = "/tags/"
+# weight = 20
+
+# [[menu.main]]
+# identifier = "example"
+# name = "example.org"
+# url = "https://example.org"
+# weight = 30
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+
+  [markup.highlight]
+    noClasses = false
+    # anchorLineNos = true
+    codeFences = true
+    guessSyntax = false
+    lineNos = true
+    style = "github"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
