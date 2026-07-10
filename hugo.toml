@@ -68,7 +68,7 @@ minifyOutput = true
   # home-info mode
   [params.homeInfoParams]
     Title = "¡Hola!"
-    Content = "Pasá,tomá un mate 🧉"
+    Content = "Pasá, tomá un mate 🧉"
 
   [[params.socialIcons]]
   name = "x"
