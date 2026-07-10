@@ -29,10 +29,10 @@ minifyOutput = true
     "tecnología",
     "software"
 ]
-  author = "Juan Pablo Gimenez"
+  author = "JPG"
   images = ["/images/social-card.png"]
   DateFormat = "2006-01-02"
-  defaultTheme = "auto"
+  defaultTheme = "dark"
   disableThemeToggle = false
 
   ShowReadingTime =  true
