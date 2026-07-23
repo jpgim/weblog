@@ -1,12 +1,10 @@
 +++
 title = 'Entre Ríos De Noche'
 date = '2026-07-22T14:54:16-03:00'
-lastmod = '2026-07-22T14:54:16-03:00'
-draft = true
+draft = false
 showtoc = true
 tocopen = true
-tags = []
-description = "NASA, EOG, GDAL, GIS"
+tags = ["NASA", "EOG", "GDAL", "GIS"]
 +++
 
 ## Introducción.
