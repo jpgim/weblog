@@ -3,6 +3,8 @@
   "name": "weblog",
   // Set this to today's date in YYYY-MM-DD format.
   "compatibility_date": "2026-06-19",
+  "workers_dev": false,
+  "preview_urls": false,
   "build": {
     "command": "chmod a+x build.sh && ./build.sh"
   },
